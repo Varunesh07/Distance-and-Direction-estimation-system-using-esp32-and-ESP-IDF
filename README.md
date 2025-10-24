@@ -139,5 +139,5 @@ Webserver (JSON → HTML Dashboard)
 
 
 ## Main Contributors
-<h1>Main Contributors</h1>
+
 <table> <tr>  <td align="center"> <a href="https://github.com/NithiishSD"> <img src="https://avatars.githubusercontent.com/u/178805412?v=4" width="100px;" alt="Nithiish SD"/> <br /> <sub><b>Nithiish SD</b></sub> </a> </td> <td align="center"> <a href="https://github.com/Varunesh07"> <img src="https://avatars.githubusercontent.com/u/205139899?v=4" width="100px;" alt="Varunesh S"/> <br /> <sub><b>Varunesh S</b></sub> </a> </td> <td align="center"> <a href="https://github.com/harshith-shiva"> <img src="https://avatars.githubusercontent.com/u/205124301?v=4" width="100px;" alt="Harshith Shiva"/> <br /> <sub><b>Harshith Shiva</b></sub> </a> </td> </tr> </table>

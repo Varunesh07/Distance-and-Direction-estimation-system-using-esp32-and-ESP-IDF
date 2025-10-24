@@ -1,0 +1,2 @@
+ompileFlags:
+    Remove: [-f*, -m*]

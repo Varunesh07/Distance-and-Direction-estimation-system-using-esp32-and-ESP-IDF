@@ -136,9 +136,7 @@ Webserver (JSON → HTML Dashboard)
 
 ---
 
-## 🧠 Credits
-- Developed by **Nithiish** , **Varunesh** , **Harshith Shiva** 
-- Guided by real-world signal tracking applications and ESP-IDF best practices.
+
 
 ## Main Contributors
 <h1>Main Contributors</h1>

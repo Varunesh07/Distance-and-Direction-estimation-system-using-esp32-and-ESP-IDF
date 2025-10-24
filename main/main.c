@@ -30,8 +30,8 @@ static const char *TAG = "DEVICE_SCAN";
 #define SERVO1_GPIO 19 // Servo 1: Clockwise
 #define SERVO2_GPIO 18 // Servo 2: Anticlockwise
 
-#define WIFI_SSID "Varunesh"  // replace with your phone hotspot SSID
-#define WIFI_PASS "varunbroo" // replace with your hotspot password
+#define WIFI_SSID "Your_WIFI_Name"  // replace with your phone hotspot SSID
+#define WIFI_PASS "Your Wifi Password" // replace with your hotspot password
 
 static const char *TAG1 = "WIFI";
 // ---------- Globals ----------

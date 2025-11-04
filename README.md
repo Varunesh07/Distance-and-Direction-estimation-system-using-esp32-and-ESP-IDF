@@ -127,15 +127,6 @@ Webserver (JSON → HTML Dashboard)
 - Change the wifi name and password in the main.c file
 ---
 
-## 🚀 Future Improvements
-
-- Add chart visualization (live RSSI vs time)
-- Save data logs to SPIFFS or SD card
-- Add OTA (Over-the-Air) firmware update
-- Multi-client web support
-
----
-
 
 
 ## Main Contributors

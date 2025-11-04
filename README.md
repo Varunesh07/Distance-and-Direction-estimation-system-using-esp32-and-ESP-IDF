@@ -37,12 +37,17 @@ project_root/
 ### 3. `server.h`
 - Contains shared structures:
   ```c
-  typedef struct {
-      char ssid[32];
-      int rssi;
-      float distance;
-      bool isTarget;
-  } DeviceData;
+  typedef struct
+{
+    char ssid[33]; // 32 + null
+    uint8_t mac[6];
+    uint8_t channel;
+    int32_t rssi_history[RSSI_HISTORY_SIZE]; // Store recent RSSI values
+    int rssi_count;                          // Number of RSSI values stored
+    int32_t smoothed_rssi;                   // Smoothed RSSI after filtering
+    kalman_state_t kf;
+
+} wifi_device_t;
   ```
 - Function prototypes for server initialization and data exchange.
 

@@ -38,7 +38,7 @@ project_root/
 - Contains shared structures:
   ```c
   typedef struct
-{
+  {
     char ssid[33]; // 32 + null
     uint8_t mac[6];
     uint8_t channel;
@@ -47,7 +47,7 @@ project_root/
     int32_t smoothed_rssi;                   // Smoothed RSSI after filtering
     kalman_state_t kf;
 
-} wifi_device_t;
+  } wifi_device_t;
   ```
 - Function prototypes for server initialization and data exchange.
 
